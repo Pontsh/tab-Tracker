@@ -9,14 +9,6 @@
         }">
        Clock In
       </router-link>
-      <router-link
-        class="home"
-        tag="span"
-        :to="{
-          name: 'clientstatus'
-        }">
-       Client Status
-      </router-link>
   </div>
 </template>
 
@@ -33,14 +25,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.home{
-   background-color: #db3d0d;
-    border-radius: 4px;
-    padding: 8px 20px;
-    color: #fff;
-    margin: 20px;
-    cursor: pointer;
-}
 h1, h2 {
   font-weight: normal;
 }
